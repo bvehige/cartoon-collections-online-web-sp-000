@@ -21,3 +21,4 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
     cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
 end
+find_the_cheese(ingredients)
