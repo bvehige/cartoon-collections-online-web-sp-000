@@ -6,8 +6,11 @@ end
 
 def summon_captain_planet(calls)
   i = 0 
+  new_calls =[]
   while i < calls.length 
-  calls[1].collect.captitalize()
+  yield calls[1].collect.captitalize()
+  
+  
   i += 1 
 end
 end
