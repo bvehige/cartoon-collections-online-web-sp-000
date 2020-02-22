@@ -7,7 +7,7 @@ end
 def summon_captain_planet(calls)
   i = 0 
   while i < calls.length 
-  calls[1].collect.captitalize(!)
+  calls[1].collect.captitalize()
   i += 1 
 end
 end
